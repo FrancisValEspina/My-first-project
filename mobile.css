@@ -1,0 +1,94 @@
+html{
+  box-sizing: border-box;
+  font-family: "Merriweather Sans"
+}
+body{
+  background-color:#256caa;
+  padding:20px;
+}
+#card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  border: 10px solid white;
+  border-radius: 20px;
+  background-color:white;
+}
+
+#top{
+width: 30px;
+height: 40px;
+}
+
+.image{
+  width:60px;
+  height: 70px;
+  z-index: 0;
+  border-radius: 80px;
+  border: 0.5px solid white;
+}
+
+#login{
+width: 100%;
+height: 100px;
+margin: 30px;
+}
+
+#login input{
+display:flex;
+width: 80%;
+height: 30%;
+}
+
+button { 
+display: block;
+margin-top:50px;
+margin-left: 18%;
+text-align:center;
+width:50%;
+height:30px;
+background-color:#308AD9;
+border:0px;
+border-radius:20px;
+font-size:18px;
+font-weight:500;
+}
+button:hover{
+cursor:pointer;
+transform:scale(1.02);
+}
+
+.box{
+border-radius:5px;
+}
+
+#rememberMeId{
+  text-align: left;
+}
+
+#forgot{
+  margin-top: auto;
+  }
+
+@media (min-width: 576px){
+#card{
+width: 500px;
+height: 496px;
+margin: auto;
+ }
+}
+
+@media (min-width: 766px){
+  #card{
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    height: 500px;
+    border: 10px solid white;
+    border-radius: 20px;
+    background-color:white;
+    margin: auto;
+  }
+}
